@@ -1,0 +1,140 @@
+body {
+  font-family: "lato", sans-serif;
+}
+/* navigation */
+.header {
+  background-color: rgba(222, 209, 209, 0.658);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+  justify-content: space-around;
+  padding: 0 20px;
+  min-height: 75px;
+}
+.logo {
+  width: 60vw;
+}
+.logo > img {
+  display: flex;
+
+  max-width: 300px;
+  width: 100%;
+  margin-left: 20px;
+}
+#nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 35vw;
+}
+#nav-bar ul li {
+  list-style: none;
+}
+#nav-bar a {
+  text-decoration: none;
+}
+#nav-bar a:link,
+#nav-bar a:visited {
+  color: black;
+}
+
+#nav-bar a:hover,
+#nav-bar a:active {
+  border: 1px solid black;
+  background-color: gray;
+  color: white;
+  border-radius: 2px;
+}
+h1 {
+  font-size: 10vh;
+}
+/* form */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero > h2 {
+  margin-bottom: 20px;
+  /* word-wrap: break-word; */
+}
+.hero input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+.hero input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+/* features */
+#features .icon {
+  height: 125px;
+  align-self: end;
+  justify-self: center;
+  padding-top: 40px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 20vw 60vw;
+}
+/* videos */
+#how-it-works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#how-it-works > iframe {
+  width: 70vw;
+}
+/* pricing */
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#pricing ol li {
+  list-style-type: none;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+.product .btn {
+  height: 30px;
+  background-color: orange;
+}
+.btn:hover {
+  background-color: rgba(225, 118, 11, 0.716);
+}
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 30px;
+  background-color: rgba(93, 88, 88, 0.34);
+}
+footer > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer > ul li {
+  list-style-type: none;
+}
